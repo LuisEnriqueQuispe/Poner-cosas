@@ -1,0 +1,17 @@
+CREATE TABLE tablita(
+	usuario varchar(45),
+	contraseña varchar(45)
+);
+INSERT INTO tablita VALUES('Ellokito123','thegame'),('Manito','enespañoldeespaña');
+
+SELECT*FROM tablita
+
+CREATE TABLE base(
+	DNI varchar(8),
+	NOMBRE varchar(100),
+	NACIMIENTO DATE,
+	ESTADO varchar(1)
+)
+
+INSERT INTO base VALUES('74329831','Manuel Lopez','14-09-2002','A')
+Select * FROM base
