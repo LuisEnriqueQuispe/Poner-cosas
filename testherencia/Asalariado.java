@@ -1,19 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package testherencia;
 
-/**
- *
- * @author Alumno
- */
 public class Asalariado {
     private String nombre;
     private long dni;
     private int diasVacaciones;
 
-    public Asalariado(String nombre, long dni, int diasdiasVacaciones) {
+    public Asalariado(String nombre, long dni, int diasVacaciones) {
         this.nombre = nombre;
         this.dni = dni;
         this.diasVacaciones = diasVacaciones;

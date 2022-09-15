@@ -12,5 +12,6 @@ public class TestHerencia {
         System.out.println("El turno del empleado2 es " + empleado2.getTurno());
         System.out.println("El nombre del empleado3 es " + empleado3.getNombre());
         System.out.println("La region del empleado3 es " + empleado3.getRegion());
+        System.out.println("Los dias de vacaciones del empleado3 son " + empleado3.getDiasVacaciones());
     }
 }   
